@@ -1,0 +1,26 @@
+Package: FindFocals
+Type: Package
+Title: Find focal gains & deletions in SNP array data
+Version: 0.1.0
+Date: 2017-09-05
+Author: Bernat Gel <bgel@igtp.cat>
+Maintainer: Bernat Gel <bgel@igtp.cat>
+Description: A simple package to detect small focal gains and deletions in SNP
+    array data. It uses a naive approach to find clusters of SNPs above or 
+    below the expected range.
+License: Artistic-2.0
+Depends:
+    R (>= 3.4),
+    regioneR,
+    karyoploteR
+Imports:
+    DNAcopy,
+    zoo,
+    GenomicRanges,
+    GenomeInfoDb
+Suggests:
+    BiocStyle,
+    knitr
+Encoding: UTF-8
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
