@@ -1,7 +1,7 @@
 Package: FindFocals
 Type: Package
 Title: Find focal gains & deletions in SNP array data
-Version: 0.1.0
+Version: 0.1.1
 Date: 2017-09-05
 Author: Bernat Gel <bgel@igtp.cat>
 Maintainer: Bernat Gel <bgel@igtp.cat>
